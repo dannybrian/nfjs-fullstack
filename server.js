@@ -73,7 +73,7 @@ io.on("connect_failed", function() {
 
 var everyone = io.of('/danny').on('connection', function(socket) {
     socket.on("disconnect", function() {
-	if (DEBUG) { console.log("disconnect"); }
+	   if (DEBUG) { console.log("disconnect"); }
     });
   
     console.log("connection");
@@ -245,9 +245,6 @@ var everyone = io.of('/danny').on('connection', function(socket) {
 	});
     
     socket.on('follow', function(data) {
-        //if (DEBUG) {
-        //    console.log("follow: " + JSON.stringify(data));
-        //}
         var tempkey = data.key.substring(0, 15);
 		if (admins[data.key]) { // we use full key to check.
             delete data.key;
