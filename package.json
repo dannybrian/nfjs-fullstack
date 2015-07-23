@@ -1,0 +1,26 @@
+{
+  "name": "nfjs-fullstack",
+  "version": "1.0.0",
+  "description": "nfjs-fullstack ==============",
+  "main": "client-network.js",
+  "dependencies": {
+    "async": "^1.4.0",
+    "mongodb": "^2.0.39",
+    "socket.io": "^1.3.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannybrian/nfjs-fullstack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannybrian/nfjs-fullstack/issues"
+  },
+  "homepage": "https://github.com/dannybrian/nfjs-fullstack#readme"
+}
